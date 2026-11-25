@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+contracts/node_modules/
+frontend/node_modules/
+
+# Environment
+.env
+.env.local
+contracts/.env
+frontend/.env.local
+
+# Build & Cache
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+frontend/.next/
+frontend/out/
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
